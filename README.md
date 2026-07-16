@@ -197,7 +197,13 @@ python scripts/mcp_server.py
 
 If this tool saves you time, consider giving it a star ⭐ — it helps others discover it too!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=mupoet/mu-pdf-converter&type=Date)](https://star-history.com/#mupoet/mu-pdf-converter&Date)
+<a href="https://star-history.com/#mupoet/mu-pdf-converter&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=mupoet/mu-pdf-converter&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=mupoet/mu-pdf-converter&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=mupoet/mu-pdf-converter&type=Date" />
+ </picture>
+</a>
 
 > Not "upload to cloud and wait" — local four-layer parsing that brings every element in your PDF back to life.
 
@@ -205,11 +211,11 @@ If this tool saves you time, consider giving it a star ⭐ — it helps others d
 
 ### 👤 About the Author
 
-🎓 Signatory Author of Tsinghua University Press / 2026 Dangdang Influential Author / AI & Large Model Business HR Specialist at a Leading Tech Company / National Level-1 HR Manager / Level-2 Psychological Counselor / Self-taught Designer
+🎓 Published author with Tsinghua University Press / 2026 Dangdang Influential Author / AI & LLM HR specialist at a leading tech company / National Level-1 HR Manager / Level-2 Psychological Counselor / Self-taught designer
 
-📚 Author of [*Visual Team Management*](https://item.m.jd.com/product/14547345.html). Clients include ByteDance, Tencent, Baidu, China Mobile, SMG, BOE…
+📚 Author of [*Visual Team Management*](https://item.m.jd.com/product/14547345.html), serving clients including ByteDance, Tencent, Baidu, China Mobile, SMG, BOE…
 
-💡 [WeChat Official Account](https://mp.weixin.qq.com/s/v1JSZvlN5fvbOOHvkvXEtA) / [Xiaohongshu](https://xhslink.com/m/ESxtgUNMdl): muippt
+💡 [WeChat](https://mp.weixin.qq.com/s/v1JSZvlN5fvbOOHvkvXEtA) / [Xiaohongshu](https://xhslink.com/m/ESxtgUNMdl): muippt
 
 ---
 

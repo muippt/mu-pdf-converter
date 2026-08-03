@@ -140,6 +140,7 @@
   .footer-links a { color: var(--text-muted); font-size: 0.82rem; }
   .footer-links a:hover { color: var(--text); }
   .footer-copy { font-size: 0.75rem; color: var(--text-muted); }
+  .badges { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
 
   /* Responsive */
   @media (max-width: 768px) {
@@ -170,7 +171,7 @@
 </ul>
 <div class="nav-right">
 <div class="lang-switch" id="langSwitch"><span data-lang="zh" class="active">中文</span><span data-lang="en">EN</span></div>
-<a href="https://github.com/muippt/mu-pdf-converter" class="nav-cta" target="_blank">GitHub</a>
+<a href="https://muippt.github.io/mu-skill-hub/" class="nav-cta" target="_blank"><span data-en="Skill Collection" data-zh="Skill合集">Skill合集</span></a>
 </div></div></nav>
 
 <section class="hero"><div class="container">
@@ -297,10 +298,13 @@
 <div class="footer-links">
 <a href="https://github.com/muippt/mu-pdf-converter" target="_blank">GitHub</a>
 <a href="https://github.com/muippt/mu-pdf-converter/blob/main/README.md"><span data-en="Documentation" data-zh="文档">文档</span></a>
-<a href="https://github.com/muippt/mu-pdf-converter/releases"><span data-en="Releases" data-zh="版本发布">版本发布</span></a>
+<a href="https://muippt.github.io/mu-skill-hub/" target="_blank"><span data-en="Skill Collection" data-zh="Skill合集">Skill合集</span></a>
 <a href="https://github.com/muippt/mu-pdf-converter/issues"><span data-en="Issues" data-zh="问题反馈">问题反馈</span></a>
 </div>
-<div class="footer-copy">©️ <a href="https://github.com/muippt" target="_blank">木先生iPPT</a> · 📚 <span data-en="Extended reading " data-zh="扩展阅读 ">扩展阅读 </span><a href="https://item.m.jd.com/product/14547345.html" target="_blank"><span data-en="Visual Team Management" data-zh="《图解团队管理》">《图解团队管理》</span></a> · 💡 <a href="https://mp.weixin.qq.com/s/v1JSZvlN5fvbOOHvkvXEtA" target="_blank"><span data-en="WeChat" data-zh="微信公众号">微信公众号</span></a> / <a href="https://xhslink.com/m/ESxtgUNMdl" target="_blank"><span data-en="Xiaohongshu" data-zh="小红书">小红书</span></a>：muippt</div>
+<div class="badges">
+<a href="https://muippt.github.io/mu-skill-hub/" target="_blank"><img src="https://img.shields.io/badge/mu--skill集合-9E95B7?logo=simpleicons&logoColor=white" data-en-src="https://img.shields.io/badge/mu--skillhub-9E95B7?logo=simpleicons&logoColor=white" data-zh-src="https://img.shields.io/badge/mu--skill集合-9E95B7?logo=simpleicons&logoColor=white" alt="mu-skillhub" height="20"></a>
+</div>
+<div class="footer-copy">©️ <a href="https://github.com/muippt" target="_blank">木先生iPPT</a> · 📚 <span data-en="Extended reading " data-zh="扩展阅读 ">扩展阅读 </span><a href="https://item.m.jd.com/product/14547345.html" target="_blank"><span data-en="Visual Team Management" data-zh="《图解团队管理》">《图解团队管理》</span></a> · 💡 <a href="https://mp.weixin.qq.com/s/YLtXENt_7WzO2DgJCFUtPA" target="_blank"><span data-en="WeChat" data-zh="微信公众号">微信公众号</span></a> / <a href="https://xhslink.com/m/ESxtgUNMdl" target="_blank"><span data-en="Xiaohongshu" data-zh="小红书">小红书</span></a>：muippt</div>
 </div></footer>
 
 <script>
@@ -311,17 +315,13 @@
     document.querySelectorAll('[data-'+lang+']').forEach(function(el){
       el.innerHTML=el.getAttribute('data-'+lang);
     });
+    document.querySelectorAll('img[data-'+lang+'-src]').forEach(function(img){var s=img.getAttribute('data-'+lang+'-src');if(s)img.src=s;});
     spans.forEach(function(s){s.classList.toggle('active',s.getAttribute('data-lang')===lang)});
-    localStorage.setItem('mu-pdf-lang',lang);
     document.documentElement.lang=lang==='zh'?'zh':'en';
   }
   spans.forEach(function(s){s.addEventListener('click',function(){applyLang(s.getAttribute('data-lang'))})});
-  var saved=localStorage.getItem('mu-pdf-lang');
-  if(saved){applyLang(saved)}
-  else{
-    var bl=(navigator.language||'').toLowerCase();
-    applyLang(bl.startsWith('zh')?'zh':'en');
-  }
+  /* Always start in Chinese: no localStorage / navigator.language restore. */
+  applyLang('zh');
 })();
 </script>
 </body>

@@ -198,7 +198,7 @@ python scripts/mcp_server.py
 
 如果这个工具帮你节省了时间，请给个 Star ⭐ — 帮助更多人发现它！
 
-[![Star History Chart](assets/star-history.svg)](https://www.star-history.com/?repos=muippt%2Fmu-pdf-converter&type=date)
+[![Star History Chart](assets/star-history.png)](https://www.star-history.com/?repos=muippt%2Fmu-pdf-converter&type=date)
 
 > 不是"上传到云端等结果"，是"本地四层解析让PDF里每个元素都活过来"。
 

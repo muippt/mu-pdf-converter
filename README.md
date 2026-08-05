@@ -198,7 +198,7 @@ python scripts/mcp_server.py
 
 If this tool saves you time, consider giving it a star ⭐ — it helps others discover it too!
 
-[![Star History Chart](assets/star-history.svg)](https://www.star-history.com/?repos=muippt%2Fmu-pdf-converter&type=date)
+[![Star History Chart](assets/star-history.png)](https://www.star-history.com/?repos=muippt%2Fmu-pdf-converter&type=date)
 
 > Not "upload to cloud and wait" — local four-layer parsing that brings every element in your PDF back to life.
 

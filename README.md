@@ -198,13 +198,7 @@ python scripts/mcp_server.py
 
 If this tool saves you time, consider giving it a star ⭐ — it helps others discover it too!
 
-<a href="https://star-history.com/#muippt/mu-pdf-converter&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=muippt/mu-pdf-converter&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=muippt/mu-pdf-converter&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=muippt/mu-pdf-converter&type=Date" />
- </picture>
-</a>
+[![Star History Chart](assets/star-history.svg)](https://www.star-history.com/?repos=muippt%2Fmu-pdf-converter&type=date)
 
 > Not "upload to cloud and wait" — local four-layer parsing that brings every element in your PDF back to life.
 

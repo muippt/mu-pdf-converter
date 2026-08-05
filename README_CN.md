@@ -198,13 +198,7 @@ python scripts/mcp_server.py
 
 如果这个工具帮你节省了时间，请给个 Star ⭐ — 帮助更多人发现它！
 
-<a href="https://star-history.com/#muippt/mu-pdf-converter&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=muippt/mu-pdf-converter&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=muippt/mu-pdf-converter&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=muippt/mu-pdf-converter&type=Date" />
- </picture>
-</a>
+[![Star History Chart](assets/star-history.svg)](https://www.star-history.com/?repos=muippt%2Fmu-pdf-converter&type=date)
 
 > 不是"上传到云端等结果"，是"本地四层解析让PDF里每个元素都活过来"。
 
